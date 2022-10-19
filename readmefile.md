@@ -20,7 +20,7 @@ C:\Users\jaswa\kafka\bin\windows\kafka-console-producer --broker-list localhost:
 
 Step 7 : Consume Messages to Topics
 C:\Users\jaswa>kafka\bin\windows
-C:\Users\jaswa\kafka\bin\windows\kafka-console-consumer --bootstrap-server localhost:9092 --topic TestTopic**
+C:\Users\jaswa\kafka\bin\windows\kafka-console-consumer --bootstrap-server localhost:9092 --topic topic_demo**
 // The above 23 line is not working please for consuming the messages please refer the below line
 **C:\Users\jaswa>\kafka\bin\windows\kafka-console-consumer.bat --topic topic_demo --from-beginning --bootstrap-server localhost:9092**
 C:\Users\jaswa>\kafka\bin\windows\kafka-console-consumer.bat --topic topic_demo --from-beginning --bootstrap-server localhost:9092
